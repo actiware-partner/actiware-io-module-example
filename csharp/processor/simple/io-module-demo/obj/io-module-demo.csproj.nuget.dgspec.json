@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mathias.herhold/ACTIWARE/io-partner/actiware-io-module-example/csharp/processor/io-module-demo/io-module-demo.csproj": {}
+  },
+  "projects": {
+    "/Users/mathias.herhold/ACTIWARE/io-partner/actiware-io-module-example/csharp/processor/io-module-demo/io-module-demo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mathias.herhold/ACTIWARE/io-partner/actiware-io-module-example/csharp/processor/io-module-demo/io-module-demo.csproj",
+        "projectName": "io-module-demo",
+        "projectPath": "/Users/mathias.herhold/ACTIWARE/io-partner/actiware-io-module-example/csharp/processor/io-module-demo/io-module-demo.csproj",
+        "packagesPath": "/Users/mathias.herhold/.nuget/packages/",
+        "outputPath": "/Users/mathias.herhold/ACTIWARE/io-partner/actiware-io-module-example/csharp/processor/io-module-demo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mathias.herhold/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/actiwaredevelopment/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Development.SDK.Module.Feature.Common": {
+              "target": "Package",
+              "version": "[2.0.28, )"
+            },
+            "Development.SDK.Module.Feature.Processor": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

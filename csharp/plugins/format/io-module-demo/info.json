@@ -1,0 +1,46 @@
+{
+    "module_id": "a1b2c3d4-e5f6-7890-1234-56789abcdef0",
+    "version": "1.0.0",
+    "name": "FormatModule",
+    "display_text": "Text Formatierung",
+    "description": "Modul für verschiedene Textformatierungen",
+    "service_address": ":5000",
+    "icon": {
+        "small": "font:format-text",
+        "medium": "font:format-text",
+        "large": "font:format-text"
+    },
+    "plugins": {
+        "format": [
+            {
+                "info": {
+                    "id": "b2c3d4e5-f6a7-8901-2345-6789abcdef01",
+                    "version": "1.0.0",
+                    "name": "to-upper",
+                    "display_text": "Text in Großbuchstaben",
+                    "description": "Konvertiert Text in Großbuchstaben"
+                },
+                "routes": {
+                    "execution": [
+                        {
+                            "type": "http",
+                            "function": "EXECUTE",
+                            "http": {
+                                "method": "POST",
+                                "url": "/api/v1/plugins/format/to-upper"
+                            }
+                        },
+                        {
+                            "type": "http",
+                            "function": "TEST",
+                            "http": {
+                                "method": "POST",
+                                "url": "/api/v1/plugins/format/to-upper"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

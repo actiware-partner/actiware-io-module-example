@@ -1,0 +1,6 @@
+@io_module_demo_HostAddress = http://localhost:5055
+
+GET {{io_module_demo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

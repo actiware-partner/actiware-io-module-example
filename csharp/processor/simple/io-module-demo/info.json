@@ -1,0 +1,49 @@
+{
+    "module_id": "a1b2c3d4-e5f6-7890-1234-56789abcdef0",
+    "version": "1.0.0",
+    "name": "FormatModule",
+    "display_text": "Text Formatierung",
+    "description": "Modul für verschiedene Textformatierungen",
+    "service_address": ":5000",
+    "icon": {
+        "small": "font:format-text",
+        "medium": "font:format-text",
+        "large": "font:format-text"
+    },
+    "processors": [
+        {
+            "info": {
+                "id": "b2c3d4e5-f6a7-8901-2345-6789abcdef01",
+                "version": "1.0.0",
+                "name": "Demo",
+                "display_text": "Demo Prozessor",
+                "description": "Ist für Demozewecke",
+                "icon": {
+                    "small": "font:format-text",
+                    "medium": "font:format-text",
+                    "large": "font:format-text"
+                }
+            },
+            "routes": {
+                "execution": [
+                    {
+                        "type": "http",
+                        "function": "EXECUTE",
+                        "http": {
+                            "method": "POST",
+                            "url": "/api/v1/processor/execute"
+                        }
+                    },
+                    {
+                        "type": "http",
+                        "function": "TEST",
+                        "http": {
+                            "method": "POST",
+                            "url": "/api/v1/processor/execute"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

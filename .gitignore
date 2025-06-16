@@ -1,0 +1,46 @@
+# .gitignore für Visual Studio Code und .NET Projekte
+
+# VS Code
+.vscode/
+.history/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Dotnet watch
+**/node_modules/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Paket manager
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Test results
+TestResults/
+
+# NUGET
+*.nupkg
+.nuget/
