@@ -1,0 +1,58 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp", "csharp", "{B41BF331-FCCB-2ADF-CDB6-767964B34647}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugins", "plugins", "{7C2165ED-2592-0A72-0E9D-814085DEC743}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "format", "format", "{D8214E7F-9394-1A4E-1DE1-D66F87E89893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "io-module-demo", "csharp\plugins\format\io-module-demo\io-module-demo.csproj", "{6136A8BA-EA9D-2722-163C-D183975A6359}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "processor", "processor", "{5C8900F2-6E57-FDF5-D16A-E73194A4B5F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "simple", "simple", "{EDAAD48B-2AED-7E6A-11EA-41AB747FB490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "io-module-demo", "csharp\processor\simple\io-module-demo\io-module-demo.csproj", "{0B31BD89-B2E4-A058-A5B3-1FCC433C5CBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "file-handling", "file-handling", "{E85B2707-A74B-6903-DE26-EE5FF4A47408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "io-module-demo", "csharp\processor\file-handling\io-module-demo\io-module-demo.csproj", "{D0697D06-C413-CCA0-716D-48AD3370A38E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6136A8BA-EA9D-2722-163C-D183975A6359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6136A8BA-EA9D-2722-163C-D183975A6359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6136A8BA-EA9D-2722-163C-D183975A6359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6136A8BA-EA9D-2722-163C-D183975A6359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B31BD89-B2E4-A058-A5B3-1FCC433C5CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B31BD89-B2E4-A058-A5B3-1FCC433C5CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B31BD89-B2E4-A058-A5B3-1FCC433C5CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B31BD89-B2E4-A058-A5B3-1FCC433C5CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0697D06-C413-CCA0-716D-48AD3370A38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0697D06-C413-CCA0-716D-48AD3370A38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0697D06-C413-CCA0-716D-48AD3370A38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0697D06-C413-CCA0-716D-48AD3370A38E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C2165ED-2592-0A72-0E9D-814085DEC743} = {B41BF331-FCCB-2ADF-CDB6-767964B34647}
+		{D8214E7F-9394-1A4E-1DE1-D66F87E89893} = {7C2165ED-2592-0A72-0E9D-814085DEC743}
+		{6136A8BA-EA9D-2722-163C-D183975A6359} = {D8214E7F-9394-1A4E-1DE1-D66F87E89893}
+		{5C8900F2-6E57-FDF5-D16A-E73194A4B5F0} = {B41BF331-FCCB-2ADF-CDB6-767964B34647}
+		{EDAAD48B-2AED-7E6A-11EA-41AB747FB490} = {5C8900F2-6E57-FDF5-D16A-E73194A4B5F0}
+		{0B31BD89-B2E4-A058-A5B3-1FCC433C5CBE} = {EDAAD48B-2AED-7E6A-11EA-41AB747FB490}
+		{E85B2707-A74B-6903-DE26-EE5FF4A47408} = {5C8900F2-6E57-FDF5-D16A-E73194A4B5F0}
+		{D0697D06-C413-CCA0-716D-48AD3370A38E} = {E85B2707-A74B-6903-DE26-EE5FF4A47408}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {893C0517-5ED9-402B-A62E-E322BFFD043C}
+	EndGlobalSection
+EndGlobal

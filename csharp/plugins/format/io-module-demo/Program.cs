@@ -1,3 +1,4 @@
+using Development.SDK.Module.Feature.Common.Http;
 using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);

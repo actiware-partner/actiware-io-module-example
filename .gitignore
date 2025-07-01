@@ -8,7 +8,9 @@
 [Dd]ebug/
 [Rr]elease/
 bin/
+**/bin/
 obj/
+**/obj/
 
 # User-specific files
 *.user
